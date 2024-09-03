@@ -1,4 +1,7 @@
-# ELIXIR Lesson Title 
+# DOME Recommendations Training Course 
+
+<img src="https://zbmed-semtec.github.io/dome-galaxy-training/img/dome.png" alt="DOME image" width="400"/>
+
 
 [add-bioschemas file='_data/metadata.yaml']
 
