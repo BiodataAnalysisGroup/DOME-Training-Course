@@ -10,6 +10,7 @@ Please cite as
 > DOME: recommendations for supervised machine learning validation in biology.
 > Nat Methods 18, 1122–1127 (2021). https://doi.org/10.1038/s41592-021-01205-4
 
+<!---
 # Elixir Training Lesson template
 
 [![DOI](https://zenodo.org/badge/564252010.svg)](https://zenodo.org/badge/latestdoi/564252010)
@@ -58,3 +59,4 @@ Please cite as
 > Geert van Geest, Elin Kronander, Jose Alejandro Romero Herrera, Nadja Žlender, & Alexia Cardona. (2023). 
 > The ELIXIR Training Lesson Template - Developing Training Together (v1.0.0-alpha). Zenodo. 
 > https://doi.org/10.5281/zenodo.7913092
+-->
