@@ -2,6 +2,10 @@
 
 This is the repository for the  training material of the DOME Recommendations.
 
+## Contribute
+
+We welcome and greatly appreciate any sort of feedback and/or contribution!
+
 ## Citation
 
 Please cite as

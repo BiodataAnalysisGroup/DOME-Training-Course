@@ -2,8 +2,11 @@ site_name: DOME Recommendations Training Course
 nav:
     - About: index.md
     - Course Content:
-      - "1. title of first chapter": chapters/chapter_01.md
-      - "2. title of second chapter": chapters/chapter_02.md
+      - "Introduction": chapters/introduction.md
+      - "1. Data": chapters/chapter_01.md
+      - "2. Optimisation": chapters/chapter_02.md
+      - "3. Model": chapters/chapter_03.md
+      - "4. Evaluation": chapters/chapter_04.md
       - "References": chapters/references.md
     - "Follow up training": follow_up_training.md
 
