@@ -1,3 +1,15 @@
+# DOME Recommendations Training Course
+
+This is the repository for the  training material of the DOME Recommendations.
+
+## Citation
+
+Please cite as
+
+> Walsh, I., Fishman, D., Garcia-Gasulla, D. et al.
+> DOME: recommendations for supervised machine learning validation in biology.
+> Nat Methods 18, 1122–1127 (2021). https://doi.org/10.1038/s41592-021-01205-4
+
 # Elixir Training Lesson template
 
 [![DOI](https://zenodo.org/badge/564252010.svg)](https://zenodo.org/badge/latestdoi/564252010)
