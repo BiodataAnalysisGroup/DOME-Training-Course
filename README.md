@@ -12,7 +12,7 @@ Please cite as
 
 > Walsh, I., Fishman, D., Garcia-Gasulla, D. et al.
 > DOME: recommendations for supervised machine learning validation in biology.
-> Nat Methods 18, 1409–1410 (2021). https://doi.org/10.1038/s41592-021-01304-2
+> Nat Methods 18, 1122–1127 (2021). https://doi.org/10.1038/s41592-021-01205-4
 
 <!---
 # Elixir Training Lesson template
