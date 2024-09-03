@@ -1,4 +1,4 @@
-site_name: ELIXIR Training Lesson
+site_name: DOME Recommendations Training Course
 nav:
     - About: index.md
     - Course Content:
@@ -20,8 +20,8 @@ theme:
     text: Lato
 
 # Repository
-repo_name: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
-repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
+repo_name: BiodataAnalysisGroup/DOME-Training-Course
+repo_url: https://github.com/BiodataAnalysisGroup/DOME-Training-Course
 edit_uri: edit/main/docs/
 
 plugins:
