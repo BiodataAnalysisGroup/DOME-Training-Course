@@ -3,7 +3,33 @@
 <img src="https://zbmed-semtec.github.io/dome-galaxy-training/img/dome.png" alt="DOME image" width="400"/>
 
 
+*__Motivation__*
+<p style='text-align: justify;'>
+Modern biology frequently relies on machine learning (ML) to provide predictions and improve decision processes. There have been recent calls for more scrutiny on ML performance and possible limitations.
+</p>
+
+*__What is DOME-ML?__*
+<p style='text-align: justify;'>
+DOME-ML (or simply DOME) is an acronym standing for Data, Optimization, Model and Evaluation in ML. DOME is a set of community-wide guidelines, recommendations and checklists spanning these four areas aiming to help establish standards of supervised ML validation in biology. The recommendations are formulated as questions to anyone wishing to pursue implementation of a ML algorithm. Answers to these questions can be easily included in the supplementary material of published papers.
+</p>
+
+
+
+*__What is the scope of the recommendations?__*
+<p style='text-align: justify;'>
+The recommendations cover four separate aspects covering the major areas of ML:
+</p>
+- Data
+- Optimization
+- Model
+- Evaluation
+
+
+
+<!--
 [add-bioschemas file='_data/metadata.yaml']
+-->
+
 
 ## Authors
 
