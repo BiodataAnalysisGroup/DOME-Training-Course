@@ -2,11 +2,11 @@
 
 - What is the __source__ of the data (database, publication, direct experiment)? 
 
-- If data are in __classes__, how many data points are available in each class—for example, total for the positive (Npos) and negative (Nneg) cases? 
+- If data are in __classes__, how many data points are available in each class—for example, total for the positive (*Npos*) and negative (*Nneg*) cases? 
 
 - If __regression__, how many real value points are there? 
 
-- Has the dataset been *previously used* by other papers and/or is it recognized by the community?
+- Has the dataset been __previously used__ by other papers and/or is it recognized by the community?
 
 
 ## 1.2 Dataset Splits
