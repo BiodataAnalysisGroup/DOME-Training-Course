@@ -1,3 +1,7 @@
+<p style='text-align: justify;'>
+Machine learning models analyse experimental biological data by extracting patterns. The extracted patterns can then be used to give biological insights on similar data that were not previously seen by the model. The degree to which a model retains its performance on new data is called generalization power. Building ML models that generalize well is the main challenge of these methodologies, otherwise the trained models cannot be reused. Preprocessing data properly, and using it in a knowledgeable manner is the only way to obtain good generalization.
+</p>
+
 ## 1.1 Provenance
 
 - What is the __source__ of the data (database, publication, direct experiment)? 
@@ -39,3 +43,10 @@ just attach the ID of the video to a youtube embedded video link: `https://youtu
     Here you can put a note using admonitions.
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+!!! example "Exercise"
+    This is a question
+
+    ??? success "Solution"
+        this is the soluiton to the question
