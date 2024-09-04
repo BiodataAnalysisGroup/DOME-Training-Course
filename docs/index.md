@@ -1,4 +1,4 @@
-# DOME Recommendations Training Course 
+# DOME Recommendations for supervised ML validation in biology 
 
 <img src="https://zbmed-semtec.github.io/dome-galaxy-training/img/dome.png" alt="DOME image" width="400"/>
 
@@ -24,6 +24,10 @@ The recommendations cover four separate aspects covering the major areas of ML:
 - Model
 - Evaluation
 
+*__About this training course__*
+<p style='text-align: justify;'>
+This course aims to be a useful and straightforward guide for those who wish to incorporate DOME in their work.
+</p>
 
 
 <!--
