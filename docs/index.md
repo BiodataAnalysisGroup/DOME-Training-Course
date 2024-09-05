@@ -39,7 +39,7 @@ Learning and using the DOME recommendations will increase awareness among resear
 
 [cards class_name="authors" cols="3"(./docs/assets/cards/author_cards.yaml)]
 
-Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](https://www.flaticon.com)
+
 
 ## Lesson overview
 
