@@ -10,7 +10,10 @@ In the implementation of a robust and trustworthy ML method, a comprehensive dat
 	
 	To start with performance metrics—that is, the quantifiable indicators of a model’s ability to solve the given task—there are dozens of metrics available for assessing different ML classification and regression problems. 
 	The plethora of options available, combined with the domain-specific expertise that might be required to select the appropriate metrics, can lead to the selection of inadequate performance measures. 
-	Often, there are critical assessment communities advocating certain performance metrics for biological ML models—for example, Critical Assessment of Protein Function Annotation (CAFA) and Critical Assessment of Genome Interpretation (CAGI)—and we recommend that a new algorithm should use metrics from the literature and community-promulgated critical assessments.[@DOME]
+	Often, there are critical assessment communities advocating certain performance metrics for biological ML models—for example, Critical Assessment of Protein Function Annotation (CAFA) and Critical Assessment of Genome Interpretation (CAGI)—and we recommend that a new algorithm should use metrics from the literature and community-promulgated critical assessments.
+	
+	Once performance metrics are decided, methods published in the same biological domain must be cross-compared using appropriate statistical tests (for example, Student’s t-test) and confidence intervals. 
+	Then, to prevent the release of ML methods that appear sophisticated but perform no better than simpler algorithms, baselines should be compared to the ‘sophisticated’ method and proven to be statistically inferior (for example, as in comparison of shallow vs. deep neural networks).[@DOME]
 
 
 
