@@ -26,7 +26,7 @@ The recommendations cover four separate aspects covering the major areas of ML:
 
 *__About this training course__*
 <p style='text-align: justify;'>
-This course aims to be a useful and straightforward guide for those who wish to incorporate DOME in their work.
+Learning and using the DOME recommendations will increase awareness among researchers on best practices to share ML approaches  so they include minimum metadata for other researchers to get a quick and clear picture of the their ML approach is about and  how it compares to others. This course aims to be a useful and straightforward guide for those who wish to incorporate DOME in their work.
 </p>
 
 

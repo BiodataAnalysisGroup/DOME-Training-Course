@@ -2,6 +2,19 @@
 Machine learning models analyse experimental biological data by extracting patterns. The extracted patterns can then be used to give biological insights on similar data that were not previously seen by the model. The degree to which a model retains its performance on new data is called generalization power. Building ML models that generalize well is the main challenge of these methodologies, otherwise the trained models cannot be reused. Preprocessing data properly, and using it in a knowledgeable manner is the only way to obtain good generalization.
 </p>
 
+
+
+??? Note "Further Reading"
+	
+    State-of-the-art ML models are often capable of memorizing all the variation in training data. Such models when evaluated on data that they were exposed to during training would create the illusion of mastering the task at hand. However, when tested on an independent set of data (termed a test or validation set), the performance would seem less impressive, suggesting low generalization power of the model. To tackle this problem, initial data should be divided randomly into non-overlapping parts. The simplest approach is to have independent training and testing sets (and possibly a third validation set). Alternatively, the cross-validation or bootstrapping techniques that choose a new training/testing split multiple times from the available data are often considered a preferred solution.
+
+	Overlap of training/testing data splits is particularly troublesome to overcome in biology. For example, in predictions on entire gene and protein sequences, independence of training and testing could be achieved by reducing the number of homologs in the data. Modeling enhancer–promoter contacts requires a different criterion, for example, not sharing one endpoint. Modeling protein domains might require the multidomain sequence to be split into its constituent domains before homology reduction. In short, each area of biology has its own recommendations for handling overlapping data issues, and previous literature is vital to putting forward a strategy.
+
+	Reporting statistics on the dataset size and distribution of data types can help show whether there is a good domain representation in all sets. Simple plots and/or tables showing the number of classes (classification), a histogram of real values binned (regression) and the different types of biological molecules in the data are vital pieces of information for each set. Further, in classification, inclusion of methods that address imbalanced classes is also needed if the class frequencies show as much. Models trained on one dataset may not be successful in dealing with data coming from adjacent but not identical datasets, a phenomenon known as covariance shift. The scale of this effect has been demonstrated in several recent publications—for example, for prediction of disease risk from exome sequencing. Although covariance shift remains an open problem, several potential solutions have been proposed in the area of transfer learning. Moreover, the problem of training ML models that can generalize well on small training data usually requires special models and algorithms.
+
+	Lastly, it is important to make as much data available to the public as possible. Having open access to the data used for experiments, including precise data splits, would ensure better reproducibility of published research and as a result will improve the overall quality of published ML papers. If datasets are not readily available in public repositories, authors should be encouraged to find the most appropriate vehicle—for example, ELIXIR deposition databases or Zenodo—to guarantee the long-term availability of such data.[@DOME]
+	
+
 ## 1.1 Provenance
 
 - What is the __source__ of the data (database, publication, direct experiment)? 
@@ -32,17 +45,6 @@ Are the data, including the data splits used, released in a public forum? If yes
 
 ## From Template
 
-Here you can enter text and create inline citations[@Garcia2020] by using the bibtex plugin. Add your references in `references.bib`, and cite [@hoebelheinrich_nancy_j_2022_6769695] by adding the @refid inside brackets like this `[@10.1093/bioinformatics/btt113]`
-
-You can also embed videos from a local source (with a relative path) or from an url (like youtube). To use a youtube URL, 
-just attach the ID of the video to a youtube embedded video link: `https://youtube.com/embed/`. For example, the Elixir training video `https://youtu.be/oAD8FdGf8tI` has the ID `oAD8FdGf8tI`, so the final link would be:
-
-
-!!! note "Note"
-
-    Here you can put a note using admonitions.
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 !!! example "Exercise"
