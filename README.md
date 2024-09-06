@@ -1,10 +1,10 @@
 # DOME Recommendations Training Course
 
-This is the repository for the  training material of the DOME Recommendations.
+This is the repository for the  training material of the DOME Recommendations. Every section is well described in order for all learners to be able to implement them by the end.
 
 ## Contribute
 
-We welcome and greatly appreciate any sort of feedback and/or contribution!
+We welcome and greatly appreciate any sort of feedback and/or contribution! Feel free to either open an issue or by pulling a request at this repository.
 
 ## Citation
 
