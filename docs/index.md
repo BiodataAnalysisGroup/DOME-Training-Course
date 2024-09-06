@@ -45,28 +45,28 @@ Learning and using the DOME recommendations will increase awareness among resear
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-    Add a short description of the training materail should be inserted here. 
+    The DOME recommendations are thoroughly presented. Every section is well described in order for all learners to be able to implement them.
     
     </br>
     
     :fontawesome-solid-arrow-left: **Prerequisites**  
     To be able to follow this course, learners should have knowledge in:  
-    &emsp;1. First requirement  
+    &emsp;1. ML basic concepts  
     &emsp;2. Second requirement  
     
     </br>
     
     :fontawesome-solid-arrow-right: **Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. First item  
-    &emsp;2. Second item  
+    &emsp;1. Recognize the DOME recommendations  
+    &emsp;2. Implement the DOME recommendations   
     
     </br>
     
-    :fontawesome-solid-users: **Target Audience:** Researchers, undergraduate students, postgraduate students, etc...  
+    :fontawesome-solid-users: **Target Audience:** Anyone who uses ML in their research.  
     </br>
     
-    :fontawesome-solid-stairs: **Level:** Beginner/Intermediate/Advanced  
+    :fontawesome-solid-stairs: **Level:** Beginner 
     
     :fontawesome-solid-lock: **License:** [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)  
     

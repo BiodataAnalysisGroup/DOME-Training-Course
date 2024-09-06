@@ -7,6 +7,7 @@ nav:
       - "2. Optimisation": chapters/chapter_02.md
       - "3. Model": chapters/chapter_03.md
       - "4. Evaluation": chapters/chapter_04.md
+      - "Bring your Data": chapters/bring-your-data.md
       - "References": chapters/references.md
     - "Follow up training": follow_up_training.md
 
