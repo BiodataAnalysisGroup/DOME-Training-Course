@@ -43,6 +43,21 @@ How many data points are in the training and test sets? Was a separate validatio
 Are the data, including the data splits used, released in a public forum? If yes, where (for example, supporting material, URL) and how (license)?
 </p>
 
+
+
+## 1.5 Example
+
+Here's an example of how the DOME corresponding section would be filled for this publication [@MobiDB] :
+
+|      |        |      |
+|-------    |-------    |---------  |
+| Data    | Provenance     				    | Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
+|     	  | Dataset splits    				    | training set: N/A <br>  Npos,test = 339,603 residues. <br>  Nneg,test = 6,168,717 residues. No validation set. 5.22% positives on the test set.|
+|     	  | Redundancy between data splits     | Not applicable.  |
+|     	  | Availability of data    		    | Yes, URL: http://protein.bio.unipd.it/mobidblite/. Free use license.|
+
+<br> 
+
 ## From Template
 
 

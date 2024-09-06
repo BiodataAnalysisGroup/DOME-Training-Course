@@ -51,3 +51,21 @@ Optimization, also known as model training, refers to the process of changing va
 ## 2.8 Availability of configuration
 - Are the hyperparameter configurations, optimization schedule, model files and optimization parameters reported? 
 - If yes, where (for example, URL) and how (license)?
+
+
+## 2.9 Example
+
+Here's an example of how the DOME corresponding section would be filled for this publication [@MobiDB] :
+
+|      |        |      |
+|-------    |-------    |---------  |
+| Optimization  | Algorithm     	  | Majority-based consensus classification based on 8 primary ML methods and post-processing. |
+|     			   | Meta-predictions | Yes, predictor output is a binary prediction computed from the consensus of other methods; Independence of training sets of other methods with test set of meta-predictor was not tested since datasets from other methods were not available. |
+|     			   | Data encoding    | Label-wise average of 8 binary predictions. |
+|     			   | Parameters   	  | p = 3 (Consensus score threshold, expansion-erosion window, length threshold). No optimization. |
+|     			   | Features   	  | Not applicable. |
+|     			   | Fitting   	 	  | Single input ML methods are used with default parameters. Optimization is a simple majority. |
+|     			   | Regularization   | No. |
+|     			   | Availability of configuration |  Not applicable.|
+
+<br> 

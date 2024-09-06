@@ -34,3 +34,16 @@ Good overall performance of the trained model and its ability to generalize well
 - If yes, __where__ (for example, URL) and __how__ (license)?
 
 
+## 3.5 Example
+
+Here's an example of how the DOME corresponding section would be filled for this publication [@MobiDB] :
+
+|      |        |      |
+|-------    |-------    |---------  |
+| Model  | Interpretability | Transparent, in so far as meta-prediction is concerned. Consensus and post processing over other methods predictions (which are mostly black boxes). No attempt was made to make the meta-prediction a black box.   |
+|     	 | Output | Classification, i.e. residues thought to be disordered. |
+|     	 | Execution time | ca. 1 second per representative on a desktop PC.|
+|     	 | Availability of software |Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br>  Bespoke license free for academic use|
+
+
+<br> 

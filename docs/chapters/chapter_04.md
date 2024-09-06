@@ -44,3 +44,16 @@ In the implementation of a robust and trustworthy ML method, a comprehensive dat
 - If yes, __where__ (for example, URL) and __how__ (license)?
 
 
+## 4.6 Example
+
+Here's an example of how the DOME corresponding section would be filled for this publication [@MobiDB] :
+
+|      |        |      |
+|-------    |-------    |---------  |
+| Evaluation  | Evaluation method | Independent dataset  |
+|     		  | Performance measures | Balanced Accuracy, Precision, Sensitivity, Specificity, F1, MCC. |
+|     		  | Comparison | DisEmbl-465, DisEmbl-HL, ESpritz Disprot, ESpritz NMR, ESpritz Xray, Globplot, IUPred long, IUPred short, VSL2b. Chosen methods are the methods from which the meta prediction is obtained.|
+|     		  | Confidence  |Not calculated.|
+|     		  | Availability of evaluation  |Not.|
+
+<br> 
