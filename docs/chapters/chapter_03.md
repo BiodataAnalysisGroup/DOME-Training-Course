@@ -1,16 +1,11 @@
 <p style='text-align: justify;'>
-Good overall performance of the trained model and its ability to generalize well to unseen data are important factors that undoubtedly affect the applicability of any proposed ML research. However, a few other important aspects related to ML models must be kept in mind. 
+Good overall performance and the model's ability to generalize well to unseen data are crucial factors that significantly impact the applicability of any proposed ML research. However, several other important aspects related to ML models must also be considered.
 </p>
 
 ??? Note "Further Reading"
-	Equally important aspects related to ML models are their interpretability and reproducibility. 
-	Interpretable models can infer causal relationships from the data and can output logical reasoning for each of their predictions. 
-	They are especially relevant in areas of discovery such as drug design and diagnostics. Conversely, black box models often give accurate predictions but may not provide insight in a way humans can understand into why they made the predictions. Both interpretable and black box models are discussed in more detail elsewhere. 
-	However, developing recommendations on the choice of black box or interpretability is not straightforward as both have their merits. 
-	The main recommendation would be that there is a statement as to whether the model type is black box or interpretable, and if it is interpretable, clear examples of interpretable output should be given.
-
-	Reproducibility is a key component for ensuring research outcomes can be further used and validated by the wider community. Poor model reproducibility extends beyond the documentation and reporting of the involved parameters, hyperparameters and optimization protocol. 
-	Lacking access to the various components of a model (source code, model files, parameter configurations and executables), as well as having steep computational requirements for executing the trained models to generate predictions based on new data, can make reproducibility of the model either limited or practically impossible.[@DOME]
+	Equally important aspects of ML models include their interpretability and reproducibility. Interpretable models can identify causal relationships in the data and provide logical explanations for their predictions, which is especially valuable in fields like drug design and diagnostics. In contrast, black box models, while often accurate, may not offer understandable insights into the reasons behind their predictions. Both types of models are discussed in more detail elsewhere, and choosing between them involves weighing their respective benefits. The key recommendation is to clearly state whether the model is a black box or interpretable, and if it is interpretable, to provide clear examples of its outputs.
+	
+	Reproducibility is crucial for ensuring that research outcomes can be effectively utilized and validated by the broader community. Challenges with model reproducibility go beyond merely documenting parameters, hyperparameters, and optimization protocols. Limited access to essential model components (such as source code, model files, parameter configurations, and executables) and high computational demands for running trained models on new data can severely restrict or even prevent reproducibility.[@DOME]
 
 
 ## 3.1 Interpretability
