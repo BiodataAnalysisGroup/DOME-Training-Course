@@ -1,19 +1,17 @@
 <p style='text-align: justify;'>
-In the implementation of a robust and trustworthy ML method, a comprehensive data description, a correct optimization protocol, and a clearly defined (and open-access) model are critical first steps; however, equally important is a valid assessment methodology for any final model.
+In implementing a robust and trustworthy ML method, providing a comprehensive data description, adhering to a correct optimization protocol, and ensuring that the model is clearly defined and openly accessible are critical first steps. Equally important is employing a valid assessment methodology to evaluate the final model.
 </p>
 
 ??? Note "Further Reading"
-	There are two types of evaluation scenarios in biological research. 
-	The __first__ is the experimental validation of the predictions made by the ML model in the laboratory. 
-	This is highly desirable but beyond the scope of many ML studies. 
-	The __second__ is a computational assessment of the model performance using established metrics. The following deals with the latter. There are a few possible risks in computational evaluation.
+	In biological research, there are two main types of evaluation scenarios for ML models: 
 	
-	To start with performance metrics—that is, the quantifiable indicators of a model’s ability to solve the given task—there are dozens of metrics available for assessing different ML classification and regression problems. 
-	The plethora of options available, combined with the domain-specific expertise that might be required to select the appropriate metrics, can lead to the selection of inadequate performance measures. 
-	Often, there are critical assessment communities advocating certain performance metrics for biological ML models—for example, Critical Assessment of Protein Function Annotation (CAFA) and Critical Assessment of Genome Interpretation (CAGI)—and we recommend that a new algorithm should use metrics from the literature and community-promulgated critical assessments.
+	1. __Experimental Validation:__ This involves validating the predictions made by the ML model through laboratory experiments. Although highly desirable, this approach is often beyond the scope of many ML studies.
 	
-	Once performance metrics are decided, methods published in the same biological domain must be cross-compared using appropriate statistical tests (for example, Student’s t-test) and confidence intervals. 
-	Then, to prevent the release of ML methods that appear sophisticated but perform no better than simpler algorithms, baselines should be compared to the ‘sophisticated’ method and proven to be statistically inferior (for example, as in comparison of shallow vs. deep neural networks).[@DOME]
+	2. __Computational Assessment:__ This involves evaluating the model's performance using established metrics. This section focuses on computational assessment and highlights a few potential risks.
+	
+	When it comes to performance metrics, which are quantifiable indicators of a model's ability to address a specific task, there are numerous metrics available for various ML classification and regression problems. The wide range of options, along with the domain-specific knowledge needed to choose the right metrics, can result in the selection of inappropriate performance measures. It is advisable to use metrics recommended by critical assessment communities relevant to biological ML models, such as the Critical Assessment of Protein Function Annotation (CAFA) and the Critical Assessment of Genome Interpretation (CAGI).
+	
+	Once appropriate performance metrics are selected, methods published in the same biological domain should be compared using suitable statistical tests (e.g., Student’s t-test) and confidence intervals. Additionally, to avoid releasing ML methods that seem advanced but do not outperform simpler algorithms, it is important to compare these methods against baseline models and demonstrate their statistical superiority (e.g., comparing shallow versus deep neural networks).[@DOME]
 
 
 
