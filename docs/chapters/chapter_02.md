@@ -1,13 +1,14 @@
 <p style='text-align: justify;'>
-Optimization, also known as model training, refers to the process of changing values that constitute the model (parameters and hyper-parameters of the model) in a way that maximizes the model’s ability to solve a given problem. In this section, we will focus on problems associated with a poor choice of optimization strategy. 
-</p>
+Optimization, or model training, refers to the process of adjusting the values that make up the model (including both parameters and hyperparameters) to enhance the model's performance in solving a given problem. In this section, we will focus on challenges that arise from selecting suboptimal optimization strategies.</p>
 
 ??? Note "Further Reading"
-	Optimization, also known as training, refers to the process of changing values that constitute the model (parameters and hyperparameters), including preprocessing steps, in a way that maximizes the model’s ability to solve a given problem. A poor choice of optimization strategy may lead to issues such as over- or underfitting.
-	A model that has suffered severe overfitting will show an excellent performance on training data while performing poorly on unseen data, rendering it useless for real-life applications. On the other side of the spectrum, underfitting occurs when very simple models capable of capturing only straightforward dependencies between features are applied to data of a more complex nature. 
-	Algorithms for feature selection32 can be employed to reduce the chances of overfitting. However, feature selection and other preprocessing actions come with their own recommendations. The main one is to abstain from using non-training data for feature selection and preprocessing—a particularly hard issue to spot for meta-predictors, which may lead to an overestimation of performance.
-
-	Finally, the release of files showing the exact specification of the optimization protocol and the type of parameters or hyperparameters are a vital characteristic of the final algorithm. Lack of documentation, including limited accessibility to relevant records for the parameters, hyperparameters and optimization protocol, may further compound the understanding of the overall model performance.[@DOME]
+	Optimization, or training, involves adjusting the values that define a model (such as parameters and hyperparameters), as well as preprocessing steps, to enhance the model’s ability to solve a given problem. Choosing an inappropriate optimization strategy can lead to issues like overfitting or underfitting.
+	
+	Overfitting occurs when a model performs exceptionally well on training data but fails on unseen data, making it ineffective in real-world scenarios. Underfitting, on the other hand, happens when overly simplistic models, capable of capturing only basic relationships between features, are applied to more complex data.
+	
+	Feature selection algorithms can help reduce the risk of overfitting, but they come with their own set of guidelines. A key recommendation is to avoid using non-training data for feature selection and preprocessing. This is especially problematic for meta-predictors, as it can lead to an overestimation of the model’s performance.
+	
+	Finally, making files that detail the exact optimization protocol, including parameters and hyperparameters, publicly available is crucial. A lack of proper documentation and limited access to these records can hinder the understanding and evaluation of the model’s overall performance.[@DOME]
 
 
 ## 2.1 Algorithm
