@@ -56,10 +56,10 @@ Here's an example of how the DOME corresponding section would be filled for this
 
 |      |        |      |
 |-------    |-------    |---------  |
-| Data    | Provenance     				    | Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
-|     	  | Dataset splits    				    | training set: N/A <br>  Npos,test = 339,603 residues. <br>  Nneg,test = 6,168,717 residues. No validation set. 5.22% positives on the test set.|
+| Data    | Provenance     				    | Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
+|     	  | Dataset splits    				    | training set: N/A <br>  Npos,test = 339,603 residues. <br>  Nneg,test = 6,168,717 residues. <br> No validation set. 5.22% positives on the test set.|
 |     	  | Redundancy between data splits     | Not applicable.  |
-|     	  | Availability of data    		    | Yes, URL: http://protein.bio.unipd.it/mobidblite/. Free use license.|
+|     	  | Availability of data    		    | Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br> Free use license.|
 
 <br> 
 
