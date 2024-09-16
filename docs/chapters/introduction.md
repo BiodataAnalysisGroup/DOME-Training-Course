@@ -1,10 +1,10 @@
 ## The need for standardization
 
-With the steep decline in the cost of many high-throughput technologies, large amounts of biological data are being generated and made accessible to researchers. 
-Machine learning (ML) has come into the spotlight as a very useful approach for understanding cellular, genomic, proteomic, post-translational, metabolic and drug discovery data, with the potential to result in ground-breaking medical applications. 
-This is clearly reflected in the corresponding growth of ML publications, reporting a wide range of modeling techniques in biology. 
-While ideally ML methods should be validated experimentally, this happens only in a fraction of the publications. 
-We believe that the time is right for the ML community to develop standards for reporting ML-based analyses to enable critical assessment and improve reproducibility. [@DOME]
+With the significant drop in the cost of many high-throughput technologies, vast amounts of biological data are being generated and made available to researchers. 
+Machine learning (ML) has emerged as a powerful tool for analyzing data related to cellular processes, genomics, proteomics, post-translational modifications, metabolism, and drug discovery, offering the potential for transformative medical advancements. 
+This trend is evident in the growing number of ML publications, showcasing a wide array of modeling techniques in biology. 
+However, although ML methods should ideally be experimentally validated, this occurs in only a small portion of the studies. 
+We believe the time is right for the ML community to establish standards for reporting ML-based analyses to facilitate critical evaluation and enhance reproducibility.[@DOME]
 
 
 <figure>
@@ -13,16 +13,14 @@ We believe that the time is right for the ML community to develop standards for 
 </figure>
 
 
-Guidelines or recommendations on how to appropriately construct ML algorithms can help to ensure correct results and predictions. 
-In biomedical research, communities have defined standard guidelines and best practices for scientific data management and reproducibility of computational tools. 
-On the ML community side, there is demand for a cohesive and combined set of recommendations with respect to data, the optimization techniques, the final model, and evaluation protocols as a whole.
+Guidelines or recommendations on the proper construction of machine learning (ML) algorithms can help ensure accurate results and predictions. 
+In biomedical research, various communities have established standard guidelines and best practices for managing scientific data and ensuring the reproducibility of computational tools. 
+Similarly, within the ML community, there is a growing need for a unified set of recommendations that address data handling, optimization techniques, model development, and evaluation protocols comprehensively.
 
-
-A recent comment highlighted the need for standards in ML, arguing for the adoption of on-submission checklists as a first step toward improving publication standards. 
-Through a community-driven consensus, we propose a list of minimal requirements asked as questions to ML implementers that, if followed, will help to assess the quality and reliability of reported methods more faithfully. 
-We have focused on data, optimization, model and evaluation (DOME) as each component of an ML implementation usually falls within one of these four topics.
-Our recommendations are made primarily for the case of supervised learning in biological applications in the absence of direct experimental validation, as this is the most common type of ML approach used. 
-We do not discuss how ML can be used in clinical applications. It also remains to be determined whether the DOME recommendations can be extended to other fields of ML, like unsupervised, semisupervised and reinforcement learning.
+A recent commentary emphasized the need for standards in ML,suggesting that introducing submission checklists could be a first step toward improving publication practices. 
+In response,  a community-driven consensus list of minimal requirements was proposed, framed as questions for ML implementers. By adhering to these guidelines, the quality and reliability of reported methods can be more accurately assessed. 
+Our focus is on data, optimization, model, and evaluation (DOME), as these four components encompass the core aspects of most ML implementations. These recommendations are primarily aimed at supervised learning in biological applications where direct experimental validation is absent, as this is the most commonly used ML approach. 
+We do not address the use of ML in clinical settings, and it remains to be seen whether the DOME recommendations can be applied to other areas of ML, such as unsupervised, semi-supervised, or reinforcement learning.
 
 ## Development of the recommendations
 
@@ -35,8 +33,8 @@ We do not discuss how ML can be used in clinical applications. It also remains t
 | Evaluation    | • Performance measures inadequate <br> • No comparisons to baselines or other methods <br> • Highly variable performance | • Biased performance measures reported <br> • The method is falsely claimed as state-of-the-art <br> • Unpredictable performance in production | __• Compare with public methods & simple models (baselines).__ <br> __• Adopt community-validated measures and benchmark datasets for evaluation.__ <br> • Compare related methods and alternatives on the same dataset.  <br> • Evaluate performance on a final independent held-out set.  <br> __• Use confidence intervals/error intervals and statistical tests to gauge robustness.__ |
 
 
-The recommendations outlined above were initially formulated through the [ELIXIR Machine Learning Focus Group](https://elixir-europe.org/focus-groups/machine-learning) after the publication of a Comment calling for the establishment of standards for ML in biology. 
-which consists of more than 50 experts int he field of ML and held meetings to develop and refine recommendations based on a broad consensus.
+The recommendations mentioned above were initially developed by the [ELIXIR Machine Learning Focus Group](https://elixir-europe.org/focus-groups/machine-learning) in response to a published Comment advocating for the establishment of standards in ML for biology. 
+This focus group, comprising over 50 experts in the field of ML, held meetings to collaboratively develop and refine the recommendations through broad consensus.
 
 
 
