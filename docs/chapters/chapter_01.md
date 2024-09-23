@@ -23,30 +23,32 @@ Properly preprocessing data and using it in an informed way are essential steps 
 ## 1.1 Provenance
 
 - What is the __source__ of the data (database, publication, direct experiment)? 
-
 - If data are in __classes__, how many data points are available in each class—for example, total for the positive (*Npos*) and negative (*Nneg*) cases? 
-
 - If __regression__, how many real value points are there? 
-
 - Has the dataset been __previously used__ by other papers and/or is it recognized by the community?
 
 
 ## 1.2 Dataset Splits
 
-<p style='text-align: justify;'>
-How many data points are in the training and test sets? Was a separate validation set used, and if yes, how large was it? Are the distributions of data types in the training and test sets different? Are the distributions of data types in both training and test sets plotted?</p>
+
+- How __many data points__ are in the training and test sets? 
+- Was a __separate validation__ set used, and if yes, how large was it? 
+- Are the __distributions__ of data types in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
 
 ## 1.3 Redundancy between data splits
 
-<p style='text-align: justify;'>
- How were the sets split? Are the training and test sets independent? How was this enforced (for example, redundancy reduction to less than X% pairwise identity)? How does the distribution compare to previously published ML datasets?
- </p>
+
+ - How were the sets __split__? 
+ - Are the training and test sets __independent__? 
+ - How was this __enforced__ (for example, redundancy reduction to less than X% pairwise identity)? 
+ - How does the distribution compare to __previously published__ ML datasets?
+
 
 ## 1.4 Availability of data
 
-<p style='text-align: justify;'>
+
 Are the data, including the data splits used, released in a public forum? If yes, where (for example, supporting material, URL) and how (license)?
-</p>
+
 
 
 
