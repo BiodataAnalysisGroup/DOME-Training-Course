@@ -97,6 +97,6 @@ Please cite as:
 ## Setup
 
 ### Software setup
-To run this course you just need to have a computer with an internet browser.
+To run this course you just need to have an internet browser.
 
 
