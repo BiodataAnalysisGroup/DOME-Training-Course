@@ -96,10 +96,7 @@ Please cite as:
 ---
 ## Setup
 
-### Data setup
-To run this lesson you need to install data from …
-
 ### Software setup
-To run this course you need to install… continue with software installation instructions
+To run this course you just need to have a computer with an internet browser.
 
 
