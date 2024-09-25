@@ -9,7 +9,7 @@ We believe the time is right for the ML community to establish standards for rep
 
 <figure>
 <img src="../../assets/images/ML_Biology.png" width="600" alt="Bar plots showing the trend of usage of ML in Biology."/>
-<figcaption> <p style='text-align: justify;'>The number of ML publications per year is based on Web of Science from 1996 onwards using the topic category for “machine learning” in combination with each of the following terms: “biolog*”, “medicine”, “genom*”, “prote*”, “cell*”, “post translational”, “metabolic” and “clinical”. [@DOME]</p></figcaption>
+<figcaption> <p style='text-align: justify;'>The number of ML publications per year is based on Web of Science from 1996 onwards using the topic category for “machine learning” in combination with each of the following terms: “biolog*”, “medicine”, “genom*”, “prote*”, “cell*”, “post translational”, “metabolic” and “clinical”.</p></figcaption>
 </figure>
 
 
