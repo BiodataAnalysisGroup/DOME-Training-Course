@@ -18,12 +18,16 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 
 ## 4.1 Evaluation method
 
+<ins>Key Questions</ins>
+
 - How was the method __evaluated__ (for example cross-validation, independent dataset, novel experiments)?
 
 !!! example "From Example Publication"
 	Independent dataset
 
 ## 4.2 Performance measures
+
+<ins>Key Questions</ins>
 
 - Which __performance metrics__ are reported (Accuracy, sensitivity, specificity, etc.)? 
 - Is this set __representative__ (for example, compared to the literature)?
@@ -35,6 +39,8 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 
 Name of other methods and, if available, definition of baselines compared to. Justification of representativeness.Name of other methods and, if available, definition of baselines compared to. Justification of representativeness.
 
+<ins>Key Questions</ins>
+
 - Was a comparison to __publicly available__ methods performed on benchmark datasets? 
 - Was a comparison to __simpler baselines__ performed?
 
@@ -45,6 +51,8 @@ Name of other methods and, if available, definition of baselines compared to. Ju
 
 Confidence intervals and statistical significance. Justification for claiming performance differences.
 
+<ins>Key Questions</ins>
+
 - Do the performance metrics have __confidence intervals__? 
 - Are the results __statistically significant__ to claim that the method is superior to others and baselines?
 
@@ -52,6 +60,8 @@ Confidence intervals and statistical significance. Justification for claiming pe
 	Not calculated.
 
 ## 4.5 Availability of evaluation
+
+<ins>Key Questions</ins>
 
 - Are the __raw evaluation files__ (for example, assignments for comparison and baselines, statistical code, confusion matrices) available? 
 - If yes, __where__ (for example, URL) and __how__ (license)?

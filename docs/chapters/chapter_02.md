@@ -15,6 +15,8 @@ Optimization, or model training, refers to the process of adjusting the values t
 
 ML class (e.g. neural network, random forest, SVM). If novel approach, reason is it not previously published.
 
+<ins>Key Questions</ins>
+
 - __What__ is the ML algorithm class used? 
 - Is the ML algorithm __new__? 
 - If yes, why was it __chosen__ over better known alternatives?
@@ -26,6 +28,8 @@ ML class (e.g. neural network, random forest, SVM). If novel approach, reason is
 ## 2.2 Meta-predictions
 
 Yes/No. If yes: how other methods are used and whether the datasets are clearly independent.
+
+<ins>Key Questions</ins>
 
 - Does the model use data from __other__ ML algorithms as input? 
 - If yes, which ones? 
@@ -39,6 +43,8 @@ Yes/No. If yes: how other methods are used and whether the datasets are clearly 
 
 How input data is transformed (e.g. global features, sliding window on sequence).
 
+<ins>Key Questions</ins>
+
 - How were the data __encoded__ and __preprocessed__ for the ML algorithm?
 
 !!! example "From Example Publication"
@@ -48,6 +54,8 @@ How input data is transformed (e.g. global features, sliding window on sequence)
 
 Number of ML model parameters (p), e.g. tunable weights in neural networks. Protocol used to select p.
 
+<ins>Key Questions</ins>
+
 - How many __parameters__ (*p*) are used in the model? 
 - How was p selected?
 
@@ -56,6 +64,7 @@ Number of ML model parameters (p), e.g. tunable weights in neural networks. Prot
 
 ## 2.5 Features
 
+<ins>Key Questions</ins>
 
 - How many __features__ (*f*) are used as input? 
 - Was __feature selection__ performed? 
@@ -66,6 +75,8 @@ Number of ML model parameters (p), e.g. tunable weights in neural networks. Prot
 
 ## 2.6 Fitting
 
+<ins>Key Questions</ins>
+
 - Is *p* much larger than the number of training points and/or is *f* large (for example, in classification is *p >> (Npos + Nneg)*and/or *f > 100*)? 
 - If yes, how was __overfitting__ ruled out? 
 - Conversely, if the number of training points is much larger than *p* and/or *f* is small (for example, *(Npos + Nneg) >> p*  and/or *f < 5*), how was __underfitting__ ruled out?
@@ -75,6 +86,8 @@ Number of ML model parameters (p), e.g. tunable weights in neural networks. Prot
 
 ## 2.7 Regularization
 
+<ins>Key Questions</ins>
+
 - Were any __overfitting prevention techniques__ used (for example, early stopping using a validation set)? 
 -If yes, __which__ ones?
 
@@ -83,6 +96,9 @@ Number of ML model parameters (p), e.g. tunable weights in neural networks. Prot
 
 
 ## 2.8 Availability of configuration
+
+<ins>Key Questions</ins>
+
 - Are the hyperparameter configurations, optimization schedule, model files and optimization parameters reported? 
 - If yes, where (for example, URL) and how (license)?
 

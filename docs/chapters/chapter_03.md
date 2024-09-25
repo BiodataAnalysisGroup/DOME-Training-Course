@@ -10,6 +10,8 @@ Good overall performance and the model's ability to generalize well to unseen da
 
 ## 3.1 Interpretability
 
+<ins>Key Questions</ins>
+
 - Is the model __black box__ or __interpretable__? 
 - If the model is interpretable, can you give clear __examples__ of this?
 
@@ -21,6 +23,8 @@ Good overall performance and the model's ability to generalize well to unseen da
 
 Specify whether the model produces a classification (e.g. binary predictions) or regression (e.g. probability score).
 
+<ins>Key Questions</ins>
+
 - Is the model __classification__ or __regression__?
 
 !!! example "From Example Publication"
@@ -30,6 +34,8 @@ Specify whether the model produces a classification (e.g. binary predictions) or
 
 CPU time of single representative execution on standard hardware (e.g. seconds on desktop PC).
 
+<ins>Key Questions</ins>
+
 -  How much __time__ does a single representative prediction require on a standard machine (for example, seconds on a desktop PC or high-performance computing cluster)?
 
 !!! example "From Example Publication"
@@ -38,6 +44,8 @@ CPU time of single representative execution on standard hardware (e.g. seconds o
 ## 3.4 Availability of software
 
 Source code repository (e.g. GitHub), software container, website URL, license.
+
+<ins>Key Questions</ins>
 
 - Is the __source code__ released? 
 - Is a __method to run__ the algorithm (executable, web server, virtual machine or container instance) released? 

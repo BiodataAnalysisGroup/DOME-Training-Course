@@ -22,7 +22,11 @@ Properly preprocessing data and using it in an informed way are essential steps 
 
 ## 1.1 Provenance 
 
-Source of data, data points (positive, *N_pos* / negative, *N_neg*). Used by previous papers and/or community.
+<p style='text-align: justify;'>
+Provenance of data refers to the origin, history, and lineage of data—essentially, tracking where the data came from, how it has been processed, and how it has moved through various systems. It’s like a detailed record that traces the data's life cycle from creation to its current state. Understanding data provenance helps ensure transparency, trustworthiness, and reliability in data usage.
+</p>
+
+<ins>Key Questions</ins>
 
 - What is the __source__ of the data (database, publication, direct experiment)? 
 - If data are in __classes__, how many data points are available in each class—for example, total for the positive (*Npos*) and negative (*Nneg*) cases? 
@@ -36,11 +40,32 @@ Source of data, data points (positive, *N_pos* / negative, *N_neg*). Used by pre
 
 ## 1.2 Dataset Splits
 
-Size of *N_pos* and *N_neg* of training set, validation set (if present), test set. Distribution of *N_pos* and *N_neg* across sets
+<p style='text-align: justify;'>
+Dataset splits refer to the process of dividing a dataset into distinct subsets for different purposes, mainly in machine learning or data science tasks. The most common splits are:
+</p>
+
+- Training Set: This is the largest subset, used to train the machine learning model. The model "learns" from this data by adjusting its internal parameters to minimize prediction errors.
+
+- Validation Set: A separate subset used to fine-tune the model's hyperparameters. The model doesn't learn directly from this data, but it helps monitor the model's performance and avoid overfitting, which is when a model becomes too tailored to the training data and doesn't generalize well.
+
+- Test Set: This is the final subset, used to evaluate the model's performance. The test set remains unseen by the model until after training and validation are complete, providing an unbiased estimate of how well the model generalizes to new, unseen data.
+
+
+<p style='text-align: justify;'>
+In addition to these, there are some variations in dataset splitting strategies:
+</p>
+
+
+- Holdout Split: A simple division where a fixed percentage of data is reserved for testing (e.g., 80% training, 20% test).
+
+- Cross-validation: In this technique, the dataset is split multiple times into training and validation sets, ensuring each data point is used for validation at least once (e.g., 5-fold cross-validation). This provides a more robust evaluation of the model’s performance.
+
+
+<ins>Key Questions</ins>
 
 - How __many data points__ are in the training and test sets? 
 - Was a __separate validation__ set used, and if yes, how large was it? 
-- Are the __distributions__ of data types in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
+- Are the __distributions__ of data types (*N_pos* and *N_neg*) in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
 
 !!! example "From Example Publication"
 	Protein Data Bank (PDB). X-ray structures missing residues. <br>  *Npos* = 339,603 residues. <br>  *Nneg* = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.
@@ -49,6 +74,9 @@ Size of *N_pos* and *N_neg* of training set, validation set (if present), test s
 ## 1.3 Redundancy between data splits
 
 Independence between sets. Strategy used to make examples representative (e.g. eliminating data points more similar than X%). Comparison relative to other datasets.
+
+
+<ins>Key Questions</ins>
 
  - How were the sets __split__? 
  - Are the training and test sets __independent__? 
@@ -60,6 +88,7 @@ Independence between sets. Strategy used to make examples representative (e.g. e
 
 ## 1.4 Availability of data
 
+<ins>Key Questions</ins>
 
 Are the data, including the data splits used, released in a public forum? If yes, where (for example, supporting material, URL) and how (license)?
 
