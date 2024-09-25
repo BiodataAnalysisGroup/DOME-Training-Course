@@ -20,12 +20,16 @@ Properly preprocessing data and using it in an informed way are essential steps 
 	Finally, making experimental data publicly available is crucial. Open access to datasets, including precise data splits, enhances the reproducibility of research and improves the overall quality of ML publications. If public repositories are not available, authors should be encouraged to use platforms like ELIXIR deposition databases or Zenodo to ensure long-term data accessibility.[@DOME]
 	
 
-## 1.1 Provenance
+## 1.1 Provenance 
 
 - What is the __source__ of the data (database, publication, direct experiment)? 
 - If data are in __classes__, how many data points are available in each class—for example, total for the positive (*Npos*) and negative (*Nneg*) cases? 
 - If __regression__, how many real value points are there? 
 - Has the dataset been __previously used__ by other papers and/or is it recognized by the community?
+
+|    Provenance Section Example  |
+|---------  |
+| Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
 
 
 ## 1.2 Dataset Splits
@@ -35,6 +39,11 @@ Properly preprocessing data and using it in an informed way are essential steps 
 - Was a __separate validation__ set used, and if yes, how large was it? 
 - Are the __distributions__ of data types in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
 
+|    Dataset Splits Section Example  |
+|---------  |
+| Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
+
+
 ## 1.3 Redundancy between data splits
 
 
@@ -43,25 +52,20 @@ Properly preprocessing data and using it in an informed way are essential steps 
  - How was this __enforced__ (for example, redundancy reduction to less than X% pairwise identity)? 
  - How does the distribution compare to __previously published__ ML datasets?
 
+|    Redundancy between data splits Section Example  |
+|---------  |
+| Not applicable.  |
 
 ## 1.4 Availability of data
 
 
 Are the data, including the data splits used, released in a public forum? If yes, where (for example, supporting material, URL) and how (license)?
 
+|    Availability of data splits Section Example  |
+|---------  |
+| Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br> Free use license.|
 
 
-
-## 1.5 Example
-
-Here's an example of how the DOME corresponding section would be filled for this publication [@MobiDB] :
-
-|      |        |      |
-|-------    |-------    |---------  |
-| Data    | Provenance     				    | Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
-|     	  | Dataset splits    				    | training set: N/A <br>  Npos,test = 339,603 residues. <br>  Nneg,test = 6,168,717 residues. <br> No validation set. 5.22% positives on the test set.|
-|     	  | Redundancy between data splits     | Not applicable.  |
-|     	  | Availability of data    		    | Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br> Free use license.|
 
 <br> 
 
