@@ -22,6 +22,8 @@ Properly preprocessing data and using it in an informed way are essential steps 
 
 ## 1.1 Provenance 
 
+Source of data, data points (positive, *N_pos* / negative, *N_neg*). Used by previous papers and/or community.
+
 - What is the __source__ of the data (database, publication, direct experiment)? 
 - If data are in __classes__, how many data points are available in each class—for example, total for the positive (*Npos*) and negative (*Nneg*) cases? 
 - If __regression__, how many real value points are there? 
@@ -29,22 +31,24 @@ Properly preprocessing data and using it in an informed way are essential steps 
 
 !!! example "From Example Publication"
 	
-	Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.
+	Protein Data Bank (PDB). X-ray structures missing residues. <br>  *Npos* = 339,603 residues. <br>  *Nneg* = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.
 
 
 ## 1.2 Dataset Splits
 
+Size of *N_pos* and *N_neg* of training set, validation set (if present), test set. Distribution of *N_pos* and *N_neg* across sets
 
 - How __many data points__ are in the training and test sets? 
 - Was a __separate validation__ set used, and if yes, how large was it? 
 - Are the __distributions__ of data types in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
 
 !!! example "From Example Publication"
-	Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.
+	Protein Data Bank (PDB). X-ray structures missing residues. <br>  *Npos* = 339,603 residues. <br>  *Nneg* = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.
 
 
 ## 1.3 Redundancy between data splits
 
+Independence between sets. Strategy used to make examples representative (e.g. eliminating data points more similar than X%). Comparison relative to other datasets.
 
  - How were the sets __split__? 
  - Are the training and test sets __independent__? 

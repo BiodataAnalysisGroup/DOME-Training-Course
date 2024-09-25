@@ -25,13 +25,15 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 
 ## 4.2 Performance measures
 
-- Which __performance metrics__ are reported? 
+- Which __performance metrics__ are reported (Accuracy, sensitivity, specificity, etc.)? 
 - Is this set __representative__ (for example, compared to the literature)?
 
 !!! example "From Example Publication"
 	Balanced Accuracy, Precision, Sensitivity, Specificity, F1, MCC.
 
 ## 4.3 Comparison
+
+Name of other methods and, if available, definition of baselines compared to. Justification of representativeness.Name of other methods and, if available, definition of baselines compared to. Justification of representativeness.
 
 - Was a comparison to __publicly available__ methods performed on benchmark datasets? 
 - Was a comparison to __simpler baselines__ performed?
@@ -40,6 +42,8 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 	DisEmbl-465, DisEmbl-HL, ESpritz Disprot, ESpritz NMR, ESpritz Xray, Globplot, IUPred long, IUPred short, VSL2b. Chosen methods are the methods from which the meta prediction is obtained.
 
 ## 4.4 Confidence
+
+Confidence intervals and statistical significance. Justification for claiming performance differences.
 
 - Do the performance metrics have __confidence intervals__? 
 - Are the results __statistically significant__ to claim that the method is superior to others and baselines?

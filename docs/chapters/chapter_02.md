@@ -13,6 +13,8 @@ Optimization, or model training, refers to the process of adjusting the values t
 
 ## 2.1 Algorithm
 
+ML class (e.g. neural network, random forest, SVM). If novel approach, reason is it not previously published.
+
 - __What__ is the ML algorithm class used? 
 - Is the ML algorithm __new__? 
 - If yes, why was it __chosen__ over better known alternatives?
@@ -22,6 +24,8 @@ Optimization, or model training, refers to the process of adjusting the values t
 
 
 ## 2.2 Meta-predictions
+
+Yes/No. If yes: how other methods are used and whether the datasets are clearly independent.
 
 - Does the model use data from __other__ ML algorithms as input? 
 - If yes, which ones? 
@@ -33,12 +37,16 @@ Optimization, or model training, refers to the process of adjusting the values t
 
 ## 2.3 Data encoding
 
+How input data is transformed (e.g. global features, sliding window on sequence).
+
 - How were the data __encoded__ and __preprocessed__ for the ML algorithm?
 
 !!! example "From Example Publication"
 	Label-wise average of 8 binary predictions.
 
 ## 2.4 Parameters
+
+Number of ML model parameters (p), e.g. tunable weights in neural networks. Protocol used to select p.
 
 - How many __parameters__ (*p*) are used in the model? 
 - How was p selected?
@@ -47,6 +55,7 @@ Optimization, or model training, refers to the process of adjusting the values t
 	p = 3 (Consensus score threshold, expansion-erosion window, length threshold). <br> No optimization.
 
 ## 2.5 Features
+
 
 - How many __features__ (*f*) are used as input? 
 - Was __feature selection__ performed? 
