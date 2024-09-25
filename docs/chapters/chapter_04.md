@@ -20,51 +20,40 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 
 - How was the method __evaluated__ (for example cross-validation, independent dataset, novel experiments)?
 
-!!! example "Example"
-	|  Evaluation method Section  |
-	|---------  |
-	| Independent dataset  |
+!!! example "From Example Publication"
+	Independent dataset
 
 ## 4.2 Performance measures
 
 - Which __performance metrics__ are reported? 
 - Is this set __representative__ (for example, compared to the literature)?
 
-!!! example "Example"
-	|  Performance Section  |
-	|---------  |
-	| Balanced Accuracy, Precision, Sensitivity, Specificity, F1, MCC. |
+!!! example "From Example Publication"
+	Balanced Accuracy, Precision, Sensitivity, Specificity, F1, MCC.
 
 ## 4.3 Comparison
 
 - Was a comparison to __publicly available__ methods performed on benchmark datasets? 
 - Was a comparison to __simpler baselines__ performed?
 
-!!! example "Example"
-	|  Comparison Section  |
-	|---------  |
-	| DisEmbl-465, DisEmbl-HL, ESpritz Disprot, ESpritz NMR, ESpritz Xray, Globplot, IUPred long, IUPred short, VSL2b. Chosen methods are the methods from which the meta prediction is obtained.|
+!!! example "From Example Publication"
+	DisEmbl-465, DisEmbl-HL, ESpritz Disprot, ESpritz NMR, ESpritz Xray, Globplot, IUPred long, IUPred short, VSL2b. Chosen methods are the methods from which the meta prediction is obtained.
 
 ## 4.4 Confidence
 
 - Do the performance metrics have __confidence intervals__? 
 - Are the results __statistically significant__ to claim that the method is superior to others and baselines?
 
-!!! example "Example"
-	|  Confidence Section  |
-	|---------  |
-	|Not calculated.|
+!!! example "From Example Publication"
+	Not calculated.
 
 ## 4.5 Availability of evaluation
 
 - Are the __raw evaluation files__ (for example, assignments for comparison and baselines, statistical code, confusion matrices) available? 
 - If yes, __where__ (for example, URL) and __how__ (license)?
 
-!!! example "Example"
-	|  Availability of evaluation Section  |
-	|---------  |
-	|Not.|
-
+!!! example "From Example Publication"
+	Not.
 
 
 <br> 
