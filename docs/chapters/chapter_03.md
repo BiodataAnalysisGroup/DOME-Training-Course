@@ -13,26 +13,29 @@ Good overall performance and the model's ability to generalize well to unseen da
 - Is the model __black box__ or __interpretable__? 
 - If the model is interpretable, can you give clear __examples__ of this?
 
-|  Interpretability Section Example  |
-|---------  |
-| Transparent, in so far as meta-prediction is concerned. Consensus and post processing over other methods predictions (which are mostly black boxes). No attempt was made to make the meta-prediction a black box.   |
+!!! example "Example"
+	|  Interpretability Section  |
+	|---------  |
+	| Transparent, in so far as meta-prediction is concerned. Consensus and post processing over other methods predictions (which are mostly black boxes). No attempt was made to make the meta-prediction a black box.   |
 
 
 ## 3.2 Output
 
 - Is the model __classification__ or __regression__?
 
-|  Output Section Example  |
-|---------  |
-| Classification, i.e. residues thought to be disordered. |
+!!! example "Example"
+	|  Output Section  |
+	|---------  |
+	| Classification, i.e. residues thought to be disordered. |
 
 ## 3.3 Execution time
 
 -  How much __time__ does a single representative prediction require on a standard machine (for example, seconds on a desktop PC or high-performance computing cluster)?
 
-|  Execution time Section Example  |
-|---------  |
-| ca. 1 second per representative on a desktop PC.|
+!!! example "Example"
+	|  Execution time Section  |
+	|---------  |
+	| ca. 1 second per representative on a desktop PC.|
 
 ## 3.4 Availability of software
 
@@ -40,9 +43,10 @@ Good overall performance and the model's ability to generalize well to unseen da
 - Is a __method to run__ the algorithm (executable, web server, virtual machine or container instance) released? 
 - If yes, __where__ (for example, URL) and __how__ (license)?
 
-|  Availability of software Section Example  |
-|---------  |
-|Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br>  Bespoke license free for academic use|
+!!! example "Example"
+	|  Availability of software Section  |
+	|---------  |
+	|Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br>  Bespoke license free for academic use|
 
 
 <br> 

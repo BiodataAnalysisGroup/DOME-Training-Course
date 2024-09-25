@@ -27,9 +27,10 @@ Properly preprocessing data and using it in an informed way are essential steps 
 - If __regression__, how many real value points are there? 
 - Has the dataset been __previously used__ by other papers and/or is it recognized by the community?
 
-|    Provenance Section Example  |
-|---------  |
-| Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
+!!! example "Example"
+	|    Provenance Section  |
+	|---------  |
+	| Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
 
 
 ## 1.2 Dataset Splits
@@ -39,9 +40,10 @@ Properly preprocessing data and using it in an informed way are essential steps 
 - Was a __separate validation__ set used, and if yes, how large was it? 
 - Are the __distributions__ of data types in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
 
-|    Dataset Splits Section Example  |
-|---------  |
-| Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
+!!! example "Example"
+	|    Dataset Splits Section  |
+	|---------  |
+	| Protein Data Bank (PDB). X-ray structures missing residues. <br>  Npos = 339,603 residues. <br>  Nneg = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.   |
 
 
 ## 1.3 Redundancy between data splits
@@ -52,29 +54,21 @@ Properly preprocessing data and using it in an informed way are essential steps 
  - How was this __enforced__ (for example, redundancy reduction to less than X% pairwise identity)? 
  - How does the distribution compare to __previously published__ ML datasets?
 
-|    Redundancy between data splits Section Example  |
-|---------  |
-| Not applicable.  |
+!!! example "Example"
+	|    Redundancy between data splits Section  |
+	|---------  |
+	| Not applicable.  |
 
 ## 1.4 Availability of data
 
 
 Are the data, including the data splits used, released in a public forum? If yes, where (for example, supporting material, URL) and how (license)?
 
-|    Availability of data splits Section Example  |
-|---------  |
-| Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br> Free use license.|
+!!! example "Example"
+	|    Availability of data splits Section  |
+	|---------  |
+	| Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br> Free use license.|
 
 
 
 <br> 
-
-## From Template
-
-
-
-!!! example "Exercise"
-    This is a question
-
-    ??? success "Solution"
-        this is the soluiton to the question

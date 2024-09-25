@@ -17,9 +17,10 @@ Optimization, or model training, refers to the process of adjusting the values t
 - Is the ML algorithm __new__? 
 - If yes, why was it __chosen__ over better known alternatives?
 
-|    Algorithm Section Example  |
-|---------  |
-| Majority-based consensus classification based on 8 primary ML methods and post-processing. |
+!!! example "Example"
+	|    Algorithm Section  |
+	|---------  |
+	| Majority-based consensus classification based on 8 primary ML methods and post-processing. |
 
 
 ## 2.2 Meta-predictions
@@ -28,27 +29,30 @@ Optimization, or model training, refers to the process of adjusting the values t
 - If yes, which ones? 
 - Is it clear that training data of initial predictors and meta-predictor are __independent__ of test data for the meta-predictor?
 
-|    Meta-predictions Section Example  |
-|---------  |
-| Yes, predictor output is a binary prediction computed from the consensus of other methods; Independence of training sets of other methods with test set of meta-predictor was not tested since datasets from other methods were not available. |
+!!! example "Example"
+	|    Meta-predictions Section  |
+	|---------  |
+	| Yes, predictor output is a binary prediction computed from the consensus of other methods; Independence of training sets of other methods with test set of meta-predictor was not tested since datasets from other methods were not available. |
 
 
 ## 2.3 Data encoding
 
 - How were the data __encoded__ and __preprocessed__ for the ML algorithm?
 
-|    Data encoding Section Example  |
-|---------  |
-| Label-wise average of 8 binary predictions. |
+!!! example "Example"
+	|    Data encoding Section  |
+	|---------  |
+	| Label-wise average of 8 binary predictions. |
 
 ## 2.4 Parameters
 
 - How many __parameters__ (*p*) are used in the model? 
 - How was p selected?
 
-|    Parameters Section Example  |
-|---------  |
-| p = 3 (Consensus score threshold, expansion-erosion window, length threshold). <br> No optimization. |
+!!! example "Example"
+	|    Parameters Section  |
+	|---------  |
+	| p = 3 (Consensus score threshold, expansion-erosion window, length threshold). <br> No optimization. |
 
 ## 2.5 Features
 
@@ -56,9 +60,10 @@ Optimization, or model training, refers to the process of adjusting the values t
 - Was __feature selection__ performed? 
 - If yes, was it performed using the __training set only__?
 
-|    Features Section Example  |
-|---------  |
-| Not applicable. |
+!!! example "Example"
+	|    Features Section  |
+	|---------  |
+	| Not applicable. |
 
 ## 2.6 Fitting
 
@@ -66,27 +71,30 @@ Optimization, or model training, refers to the process of adjusting the values t
 - If yes, how was __overfitting__ ruled out? 
 - Conversely, if the number of training points is much larger than *p* and/or *f* is small (for example, *(Npos + Nneg) >> p*  and/or *f < 5*), how was __underfitting__ ruled out?
 
-|  Fitting Section Example  |
-|---------  |
-| Single input ML methods are used with default parameters. <br> Optimization is a simple majority. |
+!!! example "Example"
+	|  Fitting Section  |
+	|---------  |
+	| Single input ML methods are used with default parameters. <br> Optimization is a simple majority. |
 
 ## 2.7 Regularization
 
 - Were any __overfitting prevention techniques__ used (for example, early stopping using a validation set)? 
 -If yes, __which__ ones?
 
-|  Regularization Section Example  |
-|---------  |
-| No. |
+!!! example "Example"
+	|  Regularization Section  |
+	|---------  |
+	| No. |
 
 
 ## 2.8 Availability of configuration
 - Are the hyperparameter configurations, optimization schedule, model files and optimization parameters reported? 
 - If yes, where (for example, URL) and how (license)?
 
-|  Availability of configuration Section Example  |
-|---------  |
-|  Not applicable.|
+!!! example "Example"
+	|  Availability of configuration Section  |
+	|---------  |
+	|  Not applicable.|
 
 
 <br> 
