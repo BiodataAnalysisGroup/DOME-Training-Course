@@ -18,6 +18,11 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 
 ## 4.1 Evaluation method
 
+<p style='text-align: justify;'>
+Evaluation of a ML model is the process of assessing its performance and effectiveness in making predictions or classifications based on new, unseen data. 
+Proper evaluation is crucial to ensure that the model generalizes well and performs as expected in real-world applications.
+</p>
+
 <ins>Key Questions</ins>
 
 - How was the method __evaluated__ (for example cross-validation, independent dataset, novel experiments)?
@@ -26,6 +31,18 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 	Independent dataset
 
 ## 4.2 Performance measures
+
+<p style='text-align: justify;'>
+The choice of evaluation metrics depends on the type of problem (regression or classification) and the specific goals of the analysis.
+</p>
+
+| Regression Metrics   | Classification Metrics	|
+|-------|---------|
+| Mean Absolute Error (MAE)  | Accuracy|
+| Mean Squared Error (MSE)|  Precision |
+| Root Mean Squared Error (RMSE)| Recall (Sensitivity)  |
+| R-squared (R<sup>2</sup>) |  F1 Score |
+
 
 <ins>Key Questions</ins>
 
@@ -37,7 +54,10 @@ In implementing a robust and trustworthy ML method, providing a comprehensive da
 
 ## 4.3 Comparison
 
-Name of other methods and, if available, definition of baselines compared to. Justification of representativeness.Name of other methods and, if available, definition of baselines compared to. Justification of representativeness.
+<p style='text-align: justify;'>
+Comparison typically refers to the evaluation of different models, algorithms, or configurations to identify which one performs best for a specific task. 
+This process is essential for selecting the most suitable approach for a given problem, optimizing performance, and understanding the strengths and weaknesses of various methods. 
+</p>
 
 <ins>Key Questions</ins>
 
@@ -49,7 +69,11 @@ Name of other methods and, if available, definition of baselines compared to. Ju
 
 ## 4.4 Confidence
 
-Confidence intervals and statistical significance. Justification for claiming performance differences.
+<p style='text-align: justify;'>
+Confidence in the context of ML refers to the measure of certainty or belief that a model's prediction is accurate. 
+It quantifies the model's certainty regarding its output, which is particularly important in classification tasks, where decisions need to be made based on predicted class probabilities.
+This can be supported with medthods such as confidence intervals and statistical significance.
+</p>
 
 <ins>Key Questions</ins>
 
@@ -60,6 +84,11 @@ Confidence intervals and statistical significance. Justification for claiming pe
 	Not calculated.
 
 ## 4.5 Availability of evaluation
+
+<p style='text-align: justify;'>
+Availability of evaluation in ML refers to the accessibility and readiness of tools, frameworks, datasets, and methodologies used to assess the performance of ML models. 
+This encompasses various aspects, from the datasets used for evaluation to the metrics and software tools that facilitate the evaluation process. 
+</p>
 
 <ins>Key Questions</ins>
 
