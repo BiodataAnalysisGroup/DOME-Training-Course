@@ -73,8 +73,10 @@ In addition to these, there are some variations in dataset splitting strategies:
 
 ## 1.3 Redundancy between data splits
 
-Independence between sets. Strategy used to make examples representative (e.g. eliminating data points more similar than X%). Comparison relative to other datasets.
-
+<p style='text-align: justify;'>
+ Redundancy between data splits occurs when the same data points are present in more than one of the training, validation, or test sets. This is undesirable because it can distort model evaluation and lead to overoptimistic performance metrics (e.g. eliminating data points more similar than X%). 
+This may effect the mfodel by introcuding an overfitting risk, unreliable performance metrics and/or lack of generalization.
+</p>
 
 <ins>Key Questions</ins>
 
@@ -88,9 +90,15 @@ Independence between sets. Strategy used to make examples representative (e.g. e
 
 ## 1.4 Availability of data
 
+<p style='text-align: justify;'>
+Availability of data refers to the accessibility and readiness of data for use in various applications, such as analysis, machine learning, decision-making, or reporting. It ensures that data can be retrieved and utilized when needed by users or systems.
+</p>
+
+
 <ins>Key Questions</ins>
 
-Are the data, including the data splits used, released in a public forum? If yes, where (for example, supporting material, URL) and how (license)?
+- Are the data, including the data splits used, __released__ in a public forum? 
+- If yes, __where__ (for example, supporting material, URL) and __how__ (license)?
 
 !!! example "From Example Publication"
 	Yes, URL: http://protein.bio.unipd.it/mobidblite/. <br> Free use license.
