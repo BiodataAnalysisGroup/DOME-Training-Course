@@ -108,9 +108,9 @@ Proper evaluation, regularization, and tuning of the model during the fitting pr
 
 <ins>Key Questions</ins>
 
-- Is *p* much larger than the number of training points and/or is *f* large (for example, in classification is *p >> (Npos + Nneg)* and/or *f > 100*)? 
+- Is *p* much larger than the number of training points and/or is *f* large (for example, in classification is *p >> (N<sub>pos</sub> + N<sub>neg</sub>)* and/or *f > 100*)? 
 - If yes, how was __overfitting__ ruled out? 
-- Conversely, if the number of training points is much larger than *p* and/or *f* is small (for example, *(Npos + Nneg) >> p*  and/or *f < 5*), how was __underfitting__ ruled out?
+- Conversely, if the number of training points is much larger than *p* and/or *f* is small (for example, *(N<sub>pos</sub> + N<sub>neg</sub>) >> p*  and/or *f < 5*), how was __underfitting__ ruled out?
 
 !!! example "From Example Publication"
 	Single input ML methods are used with default parameters. <br> Optimization is a simple majority.

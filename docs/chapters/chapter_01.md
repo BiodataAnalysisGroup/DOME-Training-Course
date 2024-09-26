@@ -65,7 +65,7 @@ In addition to these, there are some variations in dataset splitting strategies:
 
 - How __many data points__ are in the training and test sets? 
 - Was a __separate validation__ set used, and if yes, how large was it? 
-- Are the __distributions__ of data types (*N_pos* and *N_neg*) in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
+- Are the __distributions__ of data types (*N<sub>pos</sub>* and *N<sub>neg</sub>*) in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
 
 !!! example "From Example Publication"
 	Protein Data Bank (PDB). X-ray structures missing residues. <br>  *Npos* = 339,603 residues. <br>  *Nneg* = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.
