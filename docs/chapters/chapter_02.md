@@ -21,7 +21,7 @@ Regarding ML class there are three major categories:
 
 - Supervised (i.e. Linear Regression, Logistic Regression, Decision Trees, Support Vector Machines (SVM) and others), 
 - Unsupervised Learning (i.e. K-Means Clustering, Principal Component Analysis (PCA) and Hierarchical Clustering and others),  
-- Reinforcement Learning (i.e. Q-Learning, Deep Q-Networks (DQN) and others). (e.g. neural network, random forest, SVM). 
+- Reinforcement Learning (i.e. Q-Learning, Deep Q-Networks (DQN) and others). 
 
 
 <ins>Key Questions</ins>
