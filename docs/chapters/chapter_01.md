@@ -68,7 +68,7 @@ In addition to these, there are some variations in dataset splitting strategies:
 - Are the __distributions__ of data types (*N<sub>pos</sub>* and *N<sub>neg</sub>*) in the training and test sets different? Are the distributions of data types in both training and test sets plotted?
 
 !!! example "From Example Publication"
-	Protein Data Bank (PDB). X-ray structures missing residues. <br>  *Npos* = 339,603 residues. <br>  *Nneg* = 6,168,717 residues. <br> Previously used in (Walsh et al., Bioinformatics 2015) as an independent benchmark set.
+	training set: N/A. *N<sub>pos,test</sub>* = 339,603 residues. *N<sub>neg,test</sub>* = 6,168,717 residues. No validation set. 5.22% positives on the test set.
 
 
 ## 1.3 Redundancy between data splits
